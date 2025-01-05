@@ -9,7 +9,7 @@ steps:
     command: |
       sudo apt-get update
       sudo apt-get install -y python3 python3-pip
-      pip3 install telebot pymongo aiohttp
+      pip3 install telebot pymongo aiohttp flask
       gcc defaulter.c -o defaulter -lpthread
   - name: Run Python script
     command: |
