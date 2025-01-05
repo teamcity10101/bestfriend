@@ -1,4 +1,4 @@
-image: 'probo/Ubuntu 20.04.2 LTS'
+image: proboci/ubuntu:22.04-php8.3
 
 
 environment:
